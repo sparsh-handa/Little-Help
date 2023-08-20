@@ -7,7 +7,7 @@ import ProtectedPage from "./components/ProtectedPage";
 import { useSelector } from "react-redux";
 import Spinner from "./components/Spinner";
 import Profile from "./pages/Profile";
-import FirstPage from "./pages/FirstPage"; // Import the FirstPage component
+
 
 function App() {
   const { loading } = useSelector((state) => state.loaders);
@@ -19,7 +19,7 @@ function App() {
         <Routes>
         
           <Route
-            path="/home"
+            path="/"
             element={
               <ProtectedPage>
                 <Home />
