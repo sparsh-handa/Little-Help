@@ -17,7 +17,7 @@ function App() {
       {loading && <Spinner />}
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<FirstPage />} /> {/* Add the new Route */}
+        
           <Route
             path="/home"
             element={
